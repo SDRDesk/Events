@@ -2,7 +2,7 @@
 # Platforms:
   - Windows
   - Mac (tested on M1 laptop using Clang 19)
-  - Linux (not tested, but certainly should work
+  - Linux (not tested, but certainly should work)
 
 ## Dependencies:
 A good C++20 compiler. That's all!

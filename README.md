@@ -9,7 +9,7 @@ Look inside the src/EventingTest.cpp file for example usage.
 Modern C++.
 Easy to understand.
 Many, many callable types supported:
-  - free functions
+  - Free functions
   - Member functions (const or not)
   - Lambdas
 

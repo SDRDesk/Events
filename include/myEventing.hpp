@@ -13,11 +13,8 @@
 #include <typeindex>
 #include <typeinfo>
 #include <atomic>
-#include <mutex>
 #include <shared_mutex>
 #include <chrono>
-
-using namespace std::chrono_literals;
 
 namespace Eventing {
 

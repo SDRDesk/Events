@@ -127,7 +127,8 @@ int testEventing() {
     bool checked_mem_fns = false;
 
     singleThreadDispatcher.dispatchLoop([&]() {
-        std::this_thread::sleep_for(100ms);
+        std::this_thread::sleep_for(
+            std::chrono::milliseconds(100));
         if (counter % 100 == 0) {
             singleThreadDispatcher.postEvent<Event1>(
                 "Every 100mS: tick!");

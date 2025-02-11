@@ -1,3 +1,4 @@
+<p align="left">
 #Core of a generic Events system. Includes a dispatcher.
 
 ##Dependencies:

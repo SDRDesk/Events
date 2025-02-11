@@ -1,7 +1,18 @@
-<p align="left">
-# Core of a generic Events system. Includes a dispatcher.
+# Core of a simple, generic Events system for modern C++.
 
 ## Dependencies:
 A good C++20 compiler. That's all!
 
-Look inside the .cpp file for example usage.
+Look inside the src/EventingTest.cpp file for example usage.
+
+### Features:
+Modern C++.
+Easy to understand.
+Many, many callable types supported:
+  - free functions
+  - Member functions (const or not)
+  - Lambdas
+
+GPL-3: Open Source!
+
+

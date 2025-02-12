@@ -10,6 +10,11 @@ struct Event2 {};
 struct Event3 {};
 struct Event4 {};
 
+std::atomic<int> event1Counter(0);
+std::atomic<int> event2Counter(0);
+std::atomic<int> event3Counter(0);
+std::atomic<int> event4Counter(0);
+
 class MyClass {
     public:
     static inline int static_counter = 0;
